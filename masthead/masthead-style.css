@@ -1,0 +1,28 @@
+nav{
+    background-color: black;
+    overflow: auto;
+
+}
+ul{
+    list-style-type: none;
+    color:white;
+    margin:0;
+    padding:0;
+}
+a{
+    font-size: .9rem;
+    text-decoration: none;
+    color:white;
+}
+input{
+    height:1.3rem;
+}
+li:hover{
+    color:red;
+}
+a:hover{
+    color:red;
+}
+img{
+    background-color:red;
+}
