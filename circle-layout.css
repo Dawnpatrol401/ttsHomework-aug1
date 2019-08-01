@@ -1,0 +1,41 @@
+/* Reset margin and padding */
+*{
+    margin:0;
+    padding:0;
+}
+/* Make the body a grid container and create the mobile layout */
+.container{
+    display: grid;
+    height:100vh;
+    margin:0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "redArea yellowArea"
+        "blueArea greenArea"; 
+}
+/* Assign Grid Areas to the Elements */
+.red{
+    grid-area: redArea;
+    position: relative;
+}
+.yellow{
+    grid-area:yellowArea;
+    position: relative;
+}
+.blue{
+    grid-area: blueArea;
+    position: relative;
+}
+.green{
+    grid-area: greenArea;
+    position: relative;
+}
+
+/* Get the text in the middle of the sections */
+.text{
+    position: absolute;
+    width:50%;
+    top:45%;
+    left:30%;
+}
