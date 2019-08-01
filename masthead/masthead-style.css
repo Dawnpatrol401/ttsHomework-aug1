@@ -33,3 +33,15 @@ a:hover{
 #cart-image{
     background-color:red;
 }
+button{
+    background-image: url("photos/search.png");
+    background-size: cover;
+    background-position: center;
+    height:1.25rem;
+    width:1.25rem;
+}
+input{border: 1px solid black;
+
+    box-sizing: border-box;
+    display: inline;
+}
