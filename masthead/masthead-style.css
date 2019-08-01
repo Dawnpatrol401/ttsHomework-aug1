@@ -23,6 +23,13 @@ li:hover{
 a:hover{
     color:red;
 }
-img{
+#search-image{
+    background-color: white;
+}
+
+#min-cart{
+    background-color: inherit;
+}
+#cart-image{
     background-color:red;
 }
