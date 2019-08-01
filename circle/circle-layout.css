@@ -6,7 +6,8 @@
 /* Make the body a grid container and create the mobile layout */
 .container{
     display: grid;
-    height:100vh;
+    height: 70vh;
+    width: 70vh;
     margin:0 auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
