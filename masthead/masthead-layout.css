@@ -10,9 +10,13 @@
     height:4rem;
 }
 /* COLUMN ONE */
-#cart-image{border: 1px solid black;
+#linkTab{border: 1px solid black;
     display: block;
     height: 4rem;
+    font-family:serif;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
     width: 10%;
 }
 /* COLUMN TWO */
